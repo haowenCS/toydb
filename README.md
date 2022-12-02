@@ -56,6 +56,11 @@ toyDB supports most common SQL features, including joins, aggregates, and ACID t
 
 [![toyDB architecture](./docs/images/architecture.svg)](./docs/architecture.md)
 
+Bustub architecture for reference!
+
+![Bustub architecture](https://15445.courses.cs.cmu.edu/fall2022/project3/img/project-structure.svg)
+
+
 toyDB's architecture is fairly typical for distributed SQL databases: a transactional
 key/value store managed by a Raft cluster with a SQL query engine on top. See the
 [architecture guide](./docs/architecture.md) for more details.
