@@ -49,6 +49,10 @@ clients and other nodes. The following diagram illustrates its internal structur
 
 ![toyDB architecture](./images/architecture.svg)
 
+Bustub architecture
+
+![Bustub architecture](https://15445.courses.cs.cmu.edu/fall2022/project3/img/project-structure.svg)
+
 At the bottom is a simple [key/value store](https://en.wikipedia.org/wiki/Key–value_database), 
 which stores all SQL data. This is wrapped inside an
 [MVCC](https://en.wikipedia.org/wiki/Multiversion_concurrency_control) key/value store that adds 
